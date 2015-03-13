@@ -1,6 +1,7 @@
 execute pathogen#infect()
 syntax on
 filetype plugin indent on
+set autoindent
 set pastetoggle=<F12>
 set cursorline
 set nocompatible
@@ -13,21 +14,18 @@ set expandtab
 set shiftwidth=4
 set tabstop=4
 set hlsearch
+set wildmenu
 set ignorecase
 set smarttab
+set history=1000
+set laststatus=2
 set listchars=tab:>.,trail:.,extends:#,nbsp:.
 set list
 set scrolloff=6
 set sidescroll=6
 set nowrap
 set t_Co=256
-"colorscheme Tomorrow-Night-Blue
 colorscheme Tomorrow-Night-Bright
-"colorscheme Tomorrow-Night-Eighties
-"colorscheme Tomorrow-Night
-"colorscheme Tomorrow
-"colorscheme candystripe
-
 
 function! PhpSyntaxOverride()
   hi! def link phpDocTags  phpDefine
