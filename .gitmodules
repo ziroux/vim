@@ -1,6 +1,3 @@
 [submodule "bundle/comments.vim"]
 	path = bundle/comments.vim
 	url = https://github.com/vim-scripts/comments.vim
-[submodule "autoload/vim-pathogen"]
-	path = autoload/vim-pathogen
-	url = https://github.com/tpope/vim-pathogen
