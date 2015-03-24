@@ -3,3 +3,6 @@
 
 # init submodules
 git submodule update --init --recursive
+
+# vimrc
+ln -sf .vimrc ../.vimrc
