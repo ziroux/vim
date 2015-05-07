@@ -7,3 +7,6 @@
 [submodule "bundle/vim-syntax-apache"]
 	path = bundle/vim-syntax-apache
 	url = https://github.com/apeschel/vim-syntax-apache
+[submodule "bundle/syntax"]
+	path = bundle/syntax
+	url = https://github.com/octol/vim-cpp-enhanced-highlight.git
