@@ -7,6 +7,7 @@ set cursorline
 set nocompatible
 set backspace=indent,eol,start
 set ruler
+set number
 set showcmd
 set title
 set ttyfast
