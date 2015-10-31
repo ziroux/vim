@@ -38,7 +38,12 @@ augroup phpSyntaxOverride
   autocmd FileType php call PhpSyntaxOverride()
 augroup END
 
+" Remember to install Powerline patched fonts
 let g:airline_powerline_fonts = 1
+let g:airline#extensions#tabline#enabled = 1
+let g:airline#extensions#tabline#show_buffers = 0
 let g:airline_theme='powerlineish'
 
+" Nerd tree shortcut
 map <C-n> :NERDTreeToggle<CR>
+
