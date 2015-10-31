@@ -39,5 +39,7 @@ augroup phpSyntaxOverride
 augroup END
 
 let g:airline_powerline_fonts = 1
+let g:Powerline_symbols = 'fancy'
+let g:airline_theme='powerlineish'
 
 map <C-n> :NERDTreeToggle<CR>
