@@ -31,3 +31,6 @@
 [submodule "bundle/ctrlp.vim"]
 	path = bundle/ctrlp.vim
 	url = https://github.com/kien/ctrlp.vim
+[submodule "bundle/vim-apparmor"]
+	path = bundle/vim-apparmor
+	url = https://github.com/ClockworkNet/vim-apparmor
