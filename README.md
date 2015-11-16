@@ -4,8 +4,9 @@
 * Installation on another computer:
     `./install.sh`
 * Plugin update:
-    `git submodule foreach git pull origin master`
-    or just `cd bundle/<folder>` and `pull origin master`
+    - `git submodule foreach git pull origin master`
+      (or just `cd bundle/<folder>` and `pull origin master`)
+    - `git submodule update --init --recursive`
 * Uninstall:
     - `git submodule deinit bundle/<folder>`
     - `git rm bundle/<folder>`
