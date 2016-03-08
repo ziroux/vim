@@ -34,3 +34,6 @@
 [submodule "bundle/vim-apparmor"]
 	path = bundle/vim-apparmor
 	url = https://github.com/ClockworkNet/vim-apparmor
+[submodule "bundle/vim-blade"]
+	path = bundle/vim-blade
+	url = https://github.com/jwalton512/vim-blade
