@@ -47,3 +47,7 @@ let g:airline_theme='powerlineish'
 " Nerd tree shortcut
 map <C-n> :NERDTreeToggle<CR>
 
+" Transparent background
+highlight Normal ctermbg=none
+highlight NonText ctermbg=none
+
