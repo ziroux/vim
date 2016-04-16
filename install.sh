@@ -5,4 +5,4 @@
 git submodule update --init --recursive
 
 # vimrc link
-ln -sf $(pwd)/.vimrc ~/
+ln -sf "$(pwd)/.vimrc" ~/
