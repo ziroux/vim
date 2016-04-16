@@ -51,3 +51,6 @@ map <C-n> :NERDTreeToggle<CR>
 highlight Normal ctermbg=none
 highlight NonText ctermbg=none
 
+" Run Python script with F9
+autocmd FileType python nnoremap <buffer> <F9> :exec '!python' shellescape(@%, 1)<cr>
+
