@@ -37,3 +37,6 @@
 [submodule "bundle/vim-blade"]
 	path = bundle/vim-blade
 	url = https://github.com/jwalton512/vim-blade
+[submodule "bundle/ansible-vim"]
+	path = bundle/ansible-vim
+	url = https://github.com/pearofducks/ansible-vim
