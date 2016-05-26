@@ -40,3 +40,6 @@
 [submodule "bundle/ansible-vim"]
 	path = bundle/ansible-vim
 	url = https://github.com/pearofducks/ansible-vim
+[submodule "bundle/HJKL"]
+	path = bundle/HJKL
+	url = https://github.com/vim-scripts/HJKL
