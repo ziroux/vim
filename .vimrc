@@ -8,6 +8,7 @@ set nocompatible
 set backspace=indent,eol,start
 set ruler
 set number
+set relativenumber
 set showcmd
 set title
 set ttyfast
