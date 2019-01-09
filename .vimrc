@@ -18,6 +18,7 @@ set expandtab
 set shiftwidth=4
 set tabstop=4
 set hlsearch
+set incsearch
 set wildmenu
 set ignorecase
 set smarttab
